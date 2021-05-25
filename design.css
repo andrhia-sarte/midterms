@@ -1,0 +1,66 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family:"candara";
+    text-align: center;
+background-image: url("iloveqcu.jpg");
+     background-blend-mode: overlay;
+    background-size: cover; 
+    background-position: center;
+    text-decoration: none;
+}
+table{
+    border-collapse: collapse;
+    width:100%
+}
+th,td{
+    border-bottom:1px solid #ddd;
+    text-align:left;
+    padding:8px;
+}
+tr:nth-child(even){
+    background-color: #f2f;
+}
+h1{
+    text-align:center;
+}
+.course{
+    width:860px;
+    margin:0 auto;
+}
+ul{
+    list-style: none;
+    margin-top: 2%;
+}
+ul li{
+    background: #262626;
+    width:190px;
+    border:1px solid #fff;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    font-family: big john;
+}
+ul li:hover{
+    background:crimson;
+}
+ ul ul{
+    display: none;
+}
+ul li:hover > ul {
+    display: block;
+}
+ul li ul li:hover > ul{
+    display: block;
+}
+ul ul ul{
+    margin-left: 170px;
+    top:0;
+    position: absolute;
+}
